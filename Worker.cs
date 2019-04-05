@@ -8,7 +8,7 @@ namespace OrderQueueWorker
 {
     public class Worker : BackgroundService
     {
-        internal const string VERSION = "0.0.4";
+        internal const string VERSION = "0.0.5";
         private readonly ILogger<Worker> _logger;
 
         public Worker(ILogger<Worker> logger)
